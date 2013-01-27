@@ -58,3 +58,6 @@ myString = "10"
 howOldIsSheFiveYearsFromNow = int(myString) + 5
 print "She is " + str(howOldIsSheFiveYearsFromNow) + " years old."
 screenClear()
+
+print "Continue on with python2/104-lists.py tutorial."
+print "103-numbers.py completed."
