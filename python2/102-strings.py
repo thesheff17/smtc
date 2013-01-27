@@ -113,6 +113,13 @@ over the lazy dog.
 
 print myBook
 screenClear() 
-    
+
+#raw_input wil always return a string
+print "How old are you?"
+age = raw_input("enter your age\n")
+
+print "Your age is " + age + "."
+screenClear()
+
 print "Continue on with python2/103-numbers.py tutorial."
 print "102-strings.py completed."
