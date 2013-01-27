@@ -11,7 +11,6 @@ This will attempt to teach you how to program.
 I will show examples in http://www.python.org/
 
 * python 2.x
-
     * python2-101.py                - first example of how to program in python 2.x
 
 * TO DO:
