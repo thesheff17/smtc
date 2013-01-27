@@ -12,9 +12,9 @@ I will show examples in http://www.python.org/
 
 * python 2.x
     * python2-101.py                - first example of how to program in python 2.x
+    * python2/102-strings.py        - more info on strings.
 
 * TO DO:
-    * python2/102-strings.py        - more info on strings.
     * python2/103-numbers.py        - how to us numbers.
     * python2/104-lists.py          - more info on lists.
     * python2/105-loops.py          - how to use loops.
