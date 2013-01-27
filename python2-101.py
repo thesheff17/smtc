@@ -101,8 +101,6 @@ print "ok some harder stuff."
 raw_input("press enter to continue.")
 os.system("clear")
 
-
-
 print "lets learn about functions.  Functions are code we can call more then once."
 print "so we don't have to keep copying/pasting code all the time."
 raw_input("press enter to continue.")
@@ -215,5 +213,4 @@ myNewInteger = 5
 print "The type of myNewInteger variable is: " + str(type(myNewInteger)) + "."
 screenClear()
 
-
-print "
+print "python2-101.py completed."
