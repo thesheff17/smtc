@@ -8,10 +8,7 @@ Introduction
 
 This will attempt to teach you how to program.
 
-I will show examples in http://www.python.org/
-
-You should eveentually see a python prompt with >>>
-
+I will show examples in python
 
 ************
 Installation
