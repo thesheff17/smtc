@@ -11,11 +11,20 @@ This will attempt to teach you how to program in python.
 ************
 Installation
 ************
-linux/mac
-    * python 2.x should already be installed on your system.
-    * if you are on ubuntu you should try out bpython: sudo apt-get install bpython
+
+os -
+    * it doesn't matter what operating system you use but I would recommend ubuntu linux. 
     
-windows
+linux/ubuntu -
+    * python 2.7.x should already be installed on your system. 
+    * sudo apt-get install git-core gitk python-mysqldb spe
+
+mac -
+    * I don't use a mac.  Feel free to change this section.
+    * python 2.7.x should be installed. http://www.python.org/getit/mac/
+    * git http://git-scm.com/download/mac
+    
+windows -
     * download setup.exe from cygwin http://www.cygwin.com/
     * install Dev/git: Fast version control system - core files
     * install Python/ptyhon: Python language interpreter 
@@ -23,7 +32,7 @@ windows
     * install Editors/vim: Vi Improved: echanced vi editor
     * install Net/openssh: The openSSH server and client programs
     * install Net/rsync: fast remote file transfer program (can use existing data to minimize transfer)
-        
+    
 * python 2.x
     * python2-101.py                - first example of how to program in python 2.x
     * python2/102-strings.py        - more info on strings.
@@ -44,6 +53,7 @@ windows
     * python2/django                - web framework
     * python2/pypy implimenation    - http://pypy.org/
     * python2/sqlachemy             - http://www.sqlalchemy.org/
+    * provide an S3 link zip of cygwin software if possible.
     
 * python 3.x 
     * python3-101.py                - first example of how to program in python 3.x
