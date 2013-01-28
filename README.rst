@@ -6,9 +6,7 @@ smtc - show me the code
 Introduction
 ************
 
-This will attempt to teach you how to program.
-
-I will show examples in python.
+This will attempt to teach you how to program in python.
 
 ************
 Installation
