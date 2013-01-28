@@ -8,7 +8,7 @@ Introduction
 
 This will attempt to teach you how to program.
 
-I will show examples in python
+I will show examples in python.
 
 ************
 Installation
