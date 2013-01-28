@@ -16,8 +16,9 @@ os -
     * it doesn't matter what operating system you use but I would recommend http://ubuntu.com/ linux. 
     
 linux/ubuntu -
-    * python 2.7.x should is already on your system. You can check by typing python at the prompt.
-    * sudo apt-get install git-core gitk python-mysqldb spe
+    * python 2.7.x should is already on your system. You can check by typing python at the prompt. ctrl-D exits prompt.
+    * install some extra packages at the command line:
+        * sudo apt-get install git-core gitk python-mysqldb spe
 
 mac -
     * I don't use a mac.  Feel free to change this section.
