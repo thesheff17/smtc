@@ -21,12 +21,10 @@ linux/mac
     * if you are on ubuntu you should try out bpython: sudo apt-get install bpython
     
 windows
-    * go to the python site and get Python 2.7.x Windows Installer.
-
-if you REALLY want to contribute to this code on windows.
     * download setup.exe from cygwin http://www.cygwin.com/
-    * install Default/git: Fast version control system - core files
-    * install Programming/ptyhon: Python language interpreter 
+    * install Devel/git: Fast version control system - core files
+    * install Python/ptyhon: Python language interpreter 
+    * install Python/python-setuptools: python package management tool
     * install Editors/vim: Vi Improved: echanced vi editor
     * install Net/openssh: The openSSH server and client programs
     * install Net/rsync: fast remote file transfer program (can use existing data to minimize transfer)
