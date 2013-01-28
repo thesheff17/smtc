@@ -10,18 +10,21 @@ This will attempt to teach you how to program.
 
 I will show examples in http://www.python.org/
 
+You should eveentually see a python prompt with >>>
+
+
 ************
 Installation
 ************
 linux/mac
     * python 2.x should already be installed on your system.
-    * if you don't have it search google how to get it on there
-
+    * if you are on ubuntu you should try out bpython: sudo apt-get install bpython
+    
 windows
     * go to the python site and get Python 2.7.x Windows Installer.
 
 if you REALLY want to contribute to this code on windows.
-download cygwin http://www.cygwin.com/
+    * download setup.exe from cygwin http://www.cygwin.com/
     * install Default/git: Fast version control system - core files
     * install Programming/ptyhon: Python language interpreter 
     * install Editors/vim: Vi Improved: echanced vi editor
