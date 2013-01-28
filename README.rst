@@ -27,7 +27,7 @@ mac -
 windows -
     * download setup.exe from cygwin http://www.cygwin.com/
     * install Dev/git: Fast version control system - core files
-    * install Python/ptyhon: Python language interpreter 
+    * install Python/python: Python language interpreter 
     * install Python/python-setuptools: python package management tool
     * install Editors/vim: Vi Improved: echanced vi editor
     * install Net/openssh: The openSSH server and client programs
