@@ -21,11 +21,11 @@ if you are on windows go to the python site and get Python 2.7.x Windows Install
 
 if you REALLY want to contribute to this code on windows.
 download cygwin http://www.cygwin.com/
-        install Default/git: Fast version control system - core files
-        install Programming/ptyhon: Python language interpreter 
-        install Editors/vim: Vi Improved: echanced vi editor
-        install Net/openssh: The openSSH server and client programs
-        install Net/rsync: fast remote file transfer program (can use existing data to minimize transfer)
+    * install Default/git: Fast version control system - core files
+    * install Programming/ptyhon: Python language interpreter 
+    * install Editors/vim: Vi Improved: echanced vi editor
+    * install Net/openssh: The openSSH server and client programs
+    * install Net/rsync: fast remote file transfer program (can use existing data to minimize transfer)
         
 * python 2.x
     * python2-101.py                - first example of how to program in python 2.x
