@@ -14,10 +14,11 @@ I will show examples in http://www.python.org/
 Installation
 ************
 linux/mac
-if you are on linux/mac you probably already have python installed.
+    * python 2.x should already be installed on your system.
+    * if you don't have it search google how to get it on there
 
 windows
-if you are on windows go to the python site and get Python 2.7.x Windows Installer.
+    * go to the python site and get Python 2.7.x Windows Installer.
 
 if you REALLY want to contribute to this code on windows.
 download cygwin http://www.cygwin.com/
