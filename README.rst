@@ -10,6 +10,23 @@ This will attempt to teach you how to program.
 
 I will show examples in http://www.python.org/
 
+************
+Installation
+************
+linux/mac
+if you are on linux/mac you probably already have python installed.
+
+windows
+if you are on windows go to the python site and get Python 2.7.x Windows Installer.
+
+if you REALLY want to contribute to this code on windows.
+download cygwin http://www.cygwin.com/
+        install Default/git: Fast version control system - core files
+        install Programming/ptyhon: Python language interpreter 
+        install Editors/vim: Vi Improved: echanced vi editor
+        install Net/openssh: The openSSH server and client programs
+        install Net/rsync: fast remote file transfer program (can use existing data to minimize transfer)
+        
 * python 2.x
     * python2-101.py                - first example of how to program in python 2.x
     * python2/102-strings.py        - more info on strings.
@@ -22,6 +39,7 @@ I will show examples in http://www.python.org/
 * TO DO:
     * python2/108-classes.py        - how to use classes.
     * python2/109-botoModule.py     - how to use the boto module https://github.com/boto/boto
+    * tutorial on how to submit changes in git
     
 * Wish list:
     * python2/datetimeModule.py     - how to use the datetime module
