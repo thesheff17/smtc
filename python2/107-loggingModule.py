@@ -62,5 +62,9 @@ print "run run run"
 time.sleep(3)
 logger.info("completed process x")
 
-print "Continue on with python2/108-classes.py tutorial."
+#logging errors
+if event <> False:
+    logger.error("event does not equal False.  Logging error")
+
+print "Continue on with python2/108-classes.pytorial."
 print "106-sysTryModule.py completed."

@@ -22,7 +22,7 @@ linux/mac
     
 windows
     * download setup.exe from cygwin http://www.cygwin.com/
-    * install Devel/git: Fast version control system - core files
+    * install Dev/git: Fast version control system - core files
     * install Python/ptyhon: Python language interpreter 
     * install Python/python-setuptools: python package management tool
     * install Editors/vim: Vi Improved: echanced vi editor
