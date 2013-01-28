@@ -24,38 +24,44 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-"""How to use numbers in python"""
+"""how to use the sys module and try/except error handling"""
+
+#the sys module allows for passing arguments on the command line.
+#this is why we also want to learn about try/except error handling.
+#instead of python complaining about a user not passing it something
+#lets help the script along and tell the user what to pass
 
 import os
+import sys
+
+os.system("clear")
 
 def screenClear():
     raw_input("press enter to continue.")
     os.system("clear")
+
+try:
     
-os.system("clear") # clears the screen 
-print '102-strings.py created by Dan Sheffner.' #tells you who I am, and also allow in line comments.
-print 'email me at dan @ sheffner dot com' #my email
-
-#integers are numbers that don't have a decimal point.
-addition = 5 + 5
-
-#You should only print out string types. So lets convert an integer to string with str()
-#I know that print without str still works but trust me just use it to convert to string.
-print str(addition)
-screenClear()
-
-#doubles are variables with decimal points
-addMyMoney = 10 + 5.52
-
-print "You have $" + str(addMyMoney) + " dollars."
-screenClear()
-
-#converting STRINGS TO INTEGERS with int(variable)
-myString = "10"
-
-howOldIsSheFiveYearsFromNow = int(myString) + 5
-print "She is " + str(howOldIsSheFiveYearsFromNow) + " years old."
-screenClear()
-
-print "Continue on with python2/104-listsLoops.py tutorial."
-print "103-numbers.py completed."
+    #option now contains the first argument the user passed in
+    option1 = sys.argv[1]
+    
+    if option1 == "runBackupScript":
+        print "running the backup script for the new server."
+        
+    if option1 == "deploySoftware":
+        print "deploying software to the new server."
+        
+    screenClear()
+    
+    print "You can also use as many sys.argv[x] as you need to read in any values to check."
+    print "Always try to help the user out on what your script does."
+    screenClear()
+    
+#catch the error and tell the user to pass it something.
+except IndexError:
+    print "You have to pass it one of two options."
+    print "runBackupScript - runs the backup script"
+    print "deploySoftware  - deployes the software"
+    
+print "Continue on with python2/107-loggingModule.py tutorial."
+print "106-sysTryModule.py completed."

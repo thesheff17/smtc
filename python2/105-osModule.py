@@ -24,38 +24,41 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-"""How to use numbers in python"""
+"""how to use the os & commands module"""
 
-import os
+# os module is a little old but can still be used.
+import os # Miscellaneous operating system interfaces http://docs.python.org/2/library/os.html
+import commands
 
+os.system("clear")
+
+#we have been using it all a long here.  This is actually calling the 
+#linux prompt with clear.  
 def screenClear():
     raw_input("press enter to continue.")
     os.system("clear")
     
-os.system("clear") # clears the screen 
-print '102-strings.py created by Dan Sheffner.' #tells you who I am, and also allow in line comments.
-print 'email me at dan @ sheffner dot com' #my email
-
-#integers are numbers that don't have a decimal point.
-addition = 5 + 5
-
-#You should only print out string types. So lets convert an integer to string with str()
-#I know that print without str still works but trust me just use it to convert to string.
-print str(addition)
+#you can even go one step further to get a string of the output
+#this ls the /home/ directory
+print "what files are located in /usr/local/ using the linux command ls"
+files = commands.getoutput("ls /usr/local/")
+print files
+screenClear()
+    
+#os can do other things like check if files exist
+#this will of course only work on linux machines
+if os.path.isfile("/etc/passwd"):
+    print "You have a password file"
+else:
+    print "You don't have a pasword file"
+screenClear()
+    
+#check if a directory exists
+if os.path.isdir("/home/"):
+    print "you have a home directory"
+else:
+    print "you don't have a home directory"
 screenClear()
 
-#doubles are variables with decimal points
-addMyMoney = 10 + 5.52
-
-print "You have $" + str(addMyMoney) + " dollars."
-screenClear()
-
-#converting STRINGS TO INTEGERS with int(variable)
-myString = "10"
-
-howOldIsSheFiveYearsFromNow = int(myString) + 5
-print "She is " + str(howOldIsSheFiveYearsFromNow) + " years old."
-screenClear()
-
-print "Continue on with python2/104-listsLoops.py tutorial."
-print "103-numbers.py completed."
+print "Continue on with python2/106-sysModule.py tutorial."
+print "105-osModule.py completed."

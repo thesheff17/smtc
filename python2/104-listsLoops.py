@@ -24,38 +24,64 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-"""How to use numbers in python"""
+"""How to use loops & Lists in python"""
 
 import os
+import time
+
+os.system("clear")
 
 def screenClear():
     raw_input("press enter to continue.")
     os.system("clear")
     
-os.system("clear") # clears the screen 
-print '102-strings.py created by Dan Sheffner.' #tells you who I am, and also allow in line comments.
-print 'email me at dan @ sheffner dot com' #my email
 
-#integers are numbers that don't have a decimal point.
-addition = 5 + 5
+#my friends list
+friends = ["Chris","Dan","Laura"]
 
-#You should only print out string types. So lets convert an integer to string with str()
-#I know that print without str still works but trust me just use it to convert to string.
-print str(addition)
+#you can also append values to a list
+friends.append("Becky")
+
+#for loop
+for each in friends:
+    print each 
 screenClear()
 
-#doubles are variables with decimal points
-addMyMoney = 10 + 5.52
-
-print "You have $" + str(addMyMoney) + " dollars."
+# if we want to know the index during for loop    
+for index, each in enumerate(friends):
+    print "index is: " + str(index) + " name is:" + each
 screenClear()
 
-#converting STRINGS TO INTEGERS with int(variable)
-myString = "10"
-
-howOldIsSheFiveYearsFromNow = int(myString) + 5
-print "She is " + str(howOldIsSheFiveYearsFromNow) + " years old."
+#go through a range of numbers
+for number in range(0,25):
+    print str(number)
 screenClear()
 
-print "Continue on with python2/104-listsLoops.py tutorial."
-print "103-numbers.py completed."
+#sometimes you need an endless loop that does something
+#you should always build in sleep time in seconds at the end.
+#if you don't add time.sleep(3) the script will consume 100% of 1 CPU.
+x = 0
+y = 3
+
+while 1==1:
+    x += 1
+    if x > y:
+        print "x reached 3 breaking loop out."
+        break
+    
+    print "sleep for 3 seconds"
+    time.sleep(3)
+    
+screenClear()
+
+#list can be different types (string and integers mixed)
+list1 = ["Dan", 5, "Laura", 10]
+
+for each in list1:
+    if isinstance(each, int):  #This line checks to see if it is an integer.
+        print str(each + 5)
+    else:                      #otherwise just print the name which is a string
+        print each
+        
+print "Continue on with python2/105-osModule.py tutorial."
+print "104-listLoops.py completed."

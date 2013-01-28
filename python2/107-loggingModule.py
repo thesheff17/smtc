@@ -24,38 +24,43 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-"""How to use numbers in python"""
+"""how to use the logging module"""
 
-import os
+#you should know what you programs are doing at all times.
+#use the linux command: tail -f log.log to watch as your programs works.
 
-def screenClear():
-    raw_input("press enter to continue.")
-    os.system("clear")
+import logging
+import time
+
+#a bunch of stuff you don't really need to worry about except log.log
+#log.log is the name of the file this information is going to be going to
+logger = logging.getLogger()
+logger.setLevel(logging.DEBUG)
+ch = logging.FileHandler('log.log')
+ch.setLevel(logging.DEBUG)
+formatter = logging.Formatter('%(asctime)s - %(filename)s - %(funcName)s - %(levelname)s - %(message)s')
+ch.setFormatter(formatter)
+logger.addHandler(ch)
+
+#now just start logging where need
+event = True
+if event == True:
+    logger.info("The event was True")
     
-os.system("clear") # clears the screen 
-print '102-strings.py created by Dan Sheffner.' #tells you who I am, and also allow in line comments.
-print 'email me at dan @ sheffner dot com' #my email
+logger.info("Ran this line outside the loop")
 
-#integers are numbers that don't have a decimal point.
-addition = 5 + 5
+x = 0
+while x < 5:
+    logger.info("The value of x is: " + str(x))
+    x += 1
 
-#You should only print out string types. So lets convert an integer to string with str()
-#I know that print without str still works but trust me just use it to convert to string.
-print str(addition)
-screenClear()
+#figuring out when stuff start/stops
+logger.info("started process x")
+print "run run run"
+time.sleep(3)
+print "run run run"
+time.sleep(3)
+logger.info("completed process x")
 
-#doubles are variables with decimal points
-addMyMoney = 10 + 5.52
-
-print "You have $" + str(addMyMoney) + " dollars."
-screenClear()
-
-#converting STRINGS TO INTEGERS with int(variable)
-myString = "10"
-
-howOldIsSheFiveYearsFromNow = int(myString) + 5
-print "She is " + str(howOldIsSheFiveYearsFromNow) + " years old."
-screenClear()
-
-print "Continue on with python2/104-listsLoops.py tutorial."
-print "103-numbers.py completed."
+print "Continue on with python2/108-classes.py tutorial."
+print "106-sysTryModule.py completed."

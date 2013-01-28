@@ -13,19 +13,22 @@ I will show examples in http://www.python.org/
 * python 2.x
     * python2-101.py                - first example of how to program in python 2.x
     * python2/102-strings.py        - more info on strings.
-
-* TO DO:
     * python2/103-numbers.py        - how to us numbers.
-    * python2/104-lists.py          - more info on lists.
-    * python2/105-loops.py          - how to use loops.
-    * python2/106-osModule.py       - how to use the os module
-    * python2/107-sysModule.py      - how to use the sys module
-    * python2/108-loggingModule.py  - how to use the logging module
-    * python2/109-datetimeModule.py - how to use the datetime module
-    * python2/110-errorHandling.py  - how to use try/except
-    * ptyhon2/111-betterComments.py - how comments really should be used
-    * python2/112-classes.py        - how to use classes.
-    * python2/113-botoModule.py     - how to use the boto module https://github.com/boto/boto
-
+    * python2/104-listsLoops.py     - how to use list & loops
+    * python2/105-osModule.py       - how to use the os module
+    * python2/106-sysTryModule.py   - how to use the sys module & try/except Error handling
+    * python2/107-loggingModule.py  - how to use the logging module
+    
+* TO DO:
+    * python2/108-classes.py        - how to use classes.
+    * python2/109-botoModule.py     - how to use the boto module https://github.com/boto/boto
+    
+* Wish list:
+    * python2/datetimeModule.py     - how to use the datetime module
+    * python2/dictionaries          - http://docs.python.org/2/tutorial/datastructures.html
+    * python2/django                - web framework
+    * python2/pypy implimenation    - http://pypy.org/
+    * python2/sqlachemy             - http://www.sqlalchemy.org/
+    
 * python 3.x 
     * python3-101.py                - first example of how to program in python 3.x
