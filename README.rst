@@ -25,7 +25,7 @@ mac -
     * git http://git-scm.com/download/mac
     
 windows -
-    * I recommend either installing ubuntu on a virtual machine with virtualbox or using
+    * I recommend either installing ubuntu on a virtual machine with virtualbox or use
     * http://ideone.com/ in the browser. Hello world example: http://ideone.com/52PbNB
     
 windows emulating linux w/ cygwin -
