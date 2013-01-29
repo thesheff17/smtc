@@ -12,6 +12,8 @@ This will attempt to teach you how to program in python.
 Installation
 ************
 
+* git clone git://github.com/thesheff17/smtc.git
+
 os -
     * it doesn't matter what operating system you use but I would recommend http://ubuntu.com/ linux. 
     
