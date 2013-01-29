@@ -44,9 +44,9 @@ windows emulating linux w/ cygwin -
     * python2/105-osModule.py       - how to use the os module
     * python2/106-sysTryModule.py   - how to use the sys module & try/except Error handling
     * python2/107-loggingModule.py  - how to use the logging module
+    * python2/108-classes.py        - how to use classes.
     
 * TO DO:
-    * python2/108-classes.py        - how to use classes.
     * python2/109-botoModule.py     - how to use the boto module https://github.com/boto/boto
     * tutorial on how to submit changes in git
     
