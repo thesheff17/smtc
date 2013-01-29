@@ -16,7 +16,7 @@ os -
     * it doesn't matter what operating system you use but I would recommend http://ubuntu.com/ linux. 
     
 linux/ubuntu -
-    * python 2.7.x should is already on your system. You can check by typing python at the prompt. ctrl-D exits prompt.
+    * python 2.x should is already on your system. You can check by typing python at the prompt. ctrl-D exits the python prompt.
     * install some extra packages at the command line: sudo apt-get install git-core gitk python-mysqldb spe
 
 mac -
@@ -25,10 +25,13 @@ mac -
     * git http://git-scm.com/download/mac
     
 windows -
+    * I recommend either installing ubuntu on a virtual machine with virtualbox or using
+    * http://ideone.com/ in the browser. Hello world example: http://ideone.com/52PbNB
+    
+windows emulating linux w/ cygwin -
     * download setup.exe from cygwin http://www.cygwin.com/
-    * install Dev/git: Fast version control system - core files
+    * install Devel/git: Fast version control system - core files
     * install Python/python: Python language interpreter 
-    * install Python/python-setuptools: python package management tool
     * install Editors/vim: Vi Improved: echanced vi editor
     * install Net/openssh: The openSSH server and client programs
     * install Net/rsync: fast remote file transfer program (can use existing data to minimize transfer)
@@ -54,6 +57,9 @@ windows -
     * python2/pypy implimenation    - http://pypy.org/
     * python2/sqlachemy             - http://www.sqlalchemy.org/
     * provide an S3 link zip of cygwin software if possible.
+    
+    * I tried to get cygwin working with easy_tools installing MySQL-python.  This failed for a number
+      of reasons.  I tried installing some MySQL libraries as well gcc-core but still failed.
     
 * python 3.x 
     * python3-101.py                - first example of how to program in python 3.x
