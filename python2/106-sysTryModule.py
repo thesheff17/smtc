@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 #
-# Copyright (c) Digital Imaging Softawre Solutions, INC 
+# Copyright (c) Digital Imaging Software Solutions, INC
 # Dan Sheffner Dan@Sheffner.org
 # All rights reserved.
 #
