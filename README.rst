@@ -32,7 +32,7 @@ windows -
     
 windows pre configured cygwin download -
     * download https://s3.amazonaws.com/smtc/smtcCygwin.zip
-    * extract smtcCygwin and run cygwin.exe
+    * extract smtcCygwin.zip and run cygwin.exe
     * update the git reporitory: cd smtc
     * git pull
     
@@ -65,7 +65,6 @@ windows emulating linux w/ cygwin -
     * python2/django                - web framework
     * python2/pypy implimenation    - http://pypy.org/
     * python2/sqlachemy             - http://www.sqlalchemy.org/
-    * provide an S3 link zip of cygwin software if possible.
     
     * I tried to get cygwin working with easy_tools installing MySQL-python.  This failed for a number
       of reasons.  I tried installing some MySQL libraries as well gcc-core but still failed.
