@@ -37,6 +37,7 @@ windows emulating linux w/ cygwin -
     * install Editors/vim: Vi Improved: echanced vi editor
     * install Net/openssh: The openSSH server and client programs
     * install Net/rsync: fast remote file transfer program (can use existing data to minimize transfer)
+    * install Utils/Ncurses: Utilities for terminal handling
     
 * python 2.x
     * python2-101.py                - first example of how to program in python 2.x
