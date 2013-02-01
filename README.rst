@@ -30,6 +30,12 @@ windows -
     * I recommend either installing ubuntu on a virtual machine with virtualbox or use
     * http://ideone.com/ in the browser. Hello world example: http://ideone.com/52PbNB
     
+windows pre configured cygwin download -
+    * download https://s3.amazonaws.com/smtc/smtcCygwin.zip
+    * extract smtcCygwin and run cygwin.exe
+    * update the git reporitory: cd smtc
+    * git pull
+    
 windows emulating linux w/ cygwin -
     * download setup.exe from cygwin http://www.cygwin.com/
     * install Devel/git: Fast version control system - core files
