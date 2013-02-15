@@ -31,7 +31,7 @@
 #My take on a class is a collection of code snippets that relates to each other.
 
 #I will try to explain things as I write the class code. 
-#ALL you programs should be classes from this point forward.
+#ALL your programs should be classes from this point forward.
 #if you are not writing your code in a class you are being lazy. Regardless of
 #programming language.
 
@@ -46,14 +46,14 @@ def screenClear():
 
 #lets create a class to store my pet names.
 #all classes begin with an uppercase letter
-#the only reason I'm using a number in the class name is to seperate out each class
+#the only reason I'm using a number in the class name is to seperate out each class examples.
 class Pets1:
     
     #all classes start with a constructor
     #a constructor contains variables that need to be accessed by all methods
-    def __init__(self):
-        
-        #lets make a list to store our games.  
+    
+    def __init__(self):        
+        #lets make a list to store our pets.  
         #You use self before the variable name in classes
         self.cats = ['Jabba', 'Egon']
         self.dogs = ['Comet', 'Roo', 'Felix']
@@ -61,7 +61,8 @@ class Pets1:
     #now lets write our first method
     # method to print our pets
     def printPets(self):
-        
+        #variables that start with self. will be available in all methed
+    
         print "I have " + str(len(self.cats)) + " cats."
         print "The names are:"
         for each in self.cats:
@@ -74,12 +75,12 @@ class Pets1:
         for each in self.dogs:
             print each
             
-            
 #now that we have our basic first class lets make it add/delete pets:
 class Pets2:
     
     #all classes start with a constructor
     #a constructor contains variables that need to be accessed by all methods
+    
     def __init__(self):
         
         #lets make a list to store our games.  
@@ -181,7 +182,7 @@ class Pets4:
             
             
 #This is a special if statement that says:
-#are you calling this script directly?  If so run the below code 
+#are you calling this script directly if so run this code.
 if __name__ == "__main__":
     
     #pets1 example:
@@ -192,7 +193,6 @@ if __name__ == "__main__":
     #now lets print out my pets
     myPets1.printPets()
     screenClear()
-    
     
     #pets2 example:
     myPets2 = Pets2()
