@@ -34,7 +34,7 @@ windows pre configured cygwin download -
     * download https://s3.amazonaws.com/smtc/smtcCygwin.zip
     * extract smtcCygwin.zip to your C:\\ drive and run cygwin.bat
     * a black box should pop up. Switch to my home directory: cd /home/thesheff17/smtc/
-    * update the git reporitory: git pull
+    * update the git repository: git pull
     
 windows emulating linux w/ cygwin -
     * download setup.exe from cygwin http://www.cygwin.com/
