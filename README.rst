@@ -5,20 +5,27 @@ smtc - show me the code
 ************
 Introduction
 ************
-
 This will attempt to teach you how to program in python.
+
+*****************
+python 2.7.x vs 3.x
+*****************
+Most of my time is spent in the 2.7.x code base due the modules I need.  Eventually
+everything will be python 3.x compatible and I will use that.  Until then I use
+2.7.x and higher.
 
 ************
 Installation
 ************
+Git is a piece of software you should store your code in.  If you have git 
+installed on your machine you can do:
+* git clone Wgit://github.com/thesheff17/smtc.git
 
-* git clone git://github.com/thesheff17/smtc.git
-
-os -
+operating system -
     * it doesn't matter what operating system you use but I would recommend http://ubuntu.com/ linux. 
     
 linux/ubuntu -
-    * python 2.x should be already on your system. You can check by typing python at the prompt. ctrl-D exits the python prompt.
+    * python 2.7.x should be already on your system. You can check by typing python at the prompt. ctrl-D exits the python prompt.
     * install some extra packages at the command line: sudo apt-get install git-core gitk python-mysqldb spe
 
 mac -
@@ -54,20 +61,28 @@ windows emulating linux w/ cygwin -
     * python2/106-sysTryModule.py   - how to use the sys module & try/except Error handling
     * python2/107-loggingModule.py  - how to use the logging module
     * python2/108-classes.py        - how to use classes.
+    * python2/109-dictionary.py     - how to use dictionary/sets/hashes
     
 * TO DO:
-    * python2/109-botoModule.py     - how to use the boto module https://github.com/boto/boto
     * tutorial on how to submit changes in git
-    
-* Wish list:
-    * python2/datetimeModule.py     - how to use the datetime module
-    * python2/dictionaries          - http://docs.python.org/2/tutorial/datastructures.html
-    * python2/django                - web framework
-    * python2/pypy implimenation    - http://pypy.org/
-    * python2/sqlachemy             - http://www.sqlalchemy.org/
-    
+    * python2/datetimeModule.py  - how to use the datetime module
+    * python2/django             - web framework
+    * python2/pypy implimenation - http://pypy.org/
+    * python2/sqlachemy          - http://www.sqlalchemy.org/
+    * python2/unittest           - testing framework
+    * python2/re module          - regex module for text searches
+    * python2/MySQLdb            - direct MySQL db access
+    * python2/excel write/read   - http://www.python-excel.org/
+    * python/ec2                 - Amazon ec2 instances service through boto module
+    * pytohn2/spot instances     - Amazon spot instance service through boto module
+    * python/dynmodb             - Amazon dynmodb service through boto module
+    * pyhon/elb                  - Amazon ELB(elastic load balancer) through boto module
+    * python/rds                 - Amazon rds(MySQL servers) through boto module
+
+* broken :-/
     * I tried to get cygwin working with easy_tools installing MySQL-python.  This failed for a number
       of reasons.  I tried installing some MySQL libraries as well gcc-core but still failed.
+      I would love a patch for cygwin to work with the MySQLdb module otherwise just use linux.
     
 * python 3.x 
     * python3-101.py                - first example of how to program in python 3.x
