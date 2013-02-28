@@ -183,7 +183,12 @@ class Pets4:
             
 #This is a special if statement that says:
 #are you calling this script directly if so run this code.
+#I can't explain this anymore.  If you want to read more about this visit
+#http://stackoverflow.com/questions/419163/what-does-if-name-main-do
 if __name__ == "__main__":
+    
+    #I print out when I star/end my scripts.
+    print "108-classes.py started."
     
     #pets1 example:
     #first thing you want to do is create a variable point at your new class
@@ -245,4 +250,5 @@ if __name__ == "__main__":
     myPets4.printPets()
     screenClear()
     
+    #print the script is done.
     print "108-classes.py completed."
