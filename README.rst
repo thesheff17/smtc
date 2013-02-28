@@ -17,8 +17,8 @@ everything will be python 3.x compatible and I will use that.  Until then I use
 ************
 Installation
 ************
-    *Git is a piece of software you should store your code in.  If you have git installed on your machine you can do:
-    * git clone git://github.com/thesheff17/smtc.git
+* Git is a piece of software you should store your code in.  If you have git installed on your machine you can do:
+* git clone git://github.com/thesheff17/smtc.git
 
 operating system -
     * it doesn't matter what operating system you use but I would recommend http://ubuntu.com/ linux. 
