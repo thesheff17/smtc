@@ -19,6 +19,7 @@ Installation
 ************
 * Git is a piece of software you should store your code in.  If you have git installed on your machine you can do:
 * git clone git://github.com/thesheff17/smtc.git
+* When you get familiar with python you should take some time and read some resources on git.  For now I will only show you python.
 
 operating system -
     * it doesn't matter what operating system you use but I would recommend http://ubuntu.com/ linux. 
@@ -35,12 +36,14 @@ mac -
 windows -
     * I recommend either installing ubuntu on a virtual machine with virtualbox or use
     * http://ideone.com/ in the browser. Hello world example: http://ideone.com/52PbNB
+      * NOTE: ideone may not run every more advance examples.
     
 windows pre configured cygwin download -
-    * download https://s3.amazonaws.com/smtc/smtcCygwin.zip
+    * cygwin emulates a linux prompt on windows.
+    * download it from here: https://s3.amazonaws.com/smtc/smtcCygwin.zip
     * extract smtcCygwin.zip to your C:\\ drive and run cygwin.bat
     * a black box should pop up. Switch to my home directory: cd /home/thesheff17/smtc/
-    * update the git repository: git pull
+    * type: "git pull" without quotes inside teh /home/thesheff17/smtc/ directory and it will update to the latest version.
     
 windows emulating linux w/ cygwin -
     * download setup.exe from cygwin http://www.cygwin.com/
