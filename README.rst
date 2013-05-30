@@ -22,8 +22,8 @@ Installation
 * When you get familiar with python you should take some time and read some resources on git.  For now I will only show you python.
 
 operating system -
-    * it doesn't matter what operating system you use but I would recommend http://ubuntu.com/ linux. 
-    
+    * it doesn't matter what operating system you use but I would recommend http://ubuntu.com/ linux.
+
 linux/ubuntu -
     * python 2.7.x should be already on your system. You can check by typing python at the prompt. ctrl-D exits the python prompt.
     * install some extra packages at the command line: sudo apt-get install git-core gitk python-mysqldb spe
@@ -32,28 +32,32 @@ mac -
     * I don't use a mac.  Feel free to change this section.
     * python 2.7.x should be installed. http://www.python.org/getit/mac/
     * git http://git-scm.com/download/mac
-    
+
 windows -
     * I recommend either installing ubuntu on a virtual machine with virtualbox or use
     * http://ideone.com/ in the browser. Hello world example: http://ideone.com/52PbNB
       * NOTE: ideone may not run every more advance examples.
-    
+
 windows pre configured cygwin download -
     * cygwin emulates a linux prompt on windows.
     * download it from here: https://s3.amazonaws.com/smtc/smtcCygwin.zip
     * extract smtcCygwin.zip to your C:\\ drive and run cygwin.bat
     * a black box should pop up. Switch to my home directory: cd /home/thesheff17/smtc/
     * type: "git pull" without quotes inside teh /home/thesheff17/smtc/ directory and it will update to the latest version.
-    
+
 windows emulating linux w/ cygwin -
     * download setup.exe from cygwin http://www.cygwin.com/
     * install Devel/git: Fast version control system - core files
-    * install Python/python: Python language interpreter 
+    * install Python/python: Python language interpreter
     * install Editors/vim: Vi Improved: echanced vi editor
     * install Net/openssh: The openSSH server and client programs
     * install Net/rsync: fast remote file transfer program (can use existing data to minimize transfer)
     * install Utils/Ncurses: Utilities for terminal handling
-    
+
+running your first program -
+    * Once you have ptyhon running you should be able ot do python
+      ./python2-101.py
+
 * python 2.x
     * python2-101.py                - first example of how to program in python 2.x
     * python2/102-strings.py        - more info on strings.
@@ -64,7 +68,7 @@ windows emulating linux w/ cygwin -
     * python2/107-loggingModule.py  - how to use the logging module
     * python2/108-classes.py        - how to use classes.
     * python2/109-dictionary.py     - how to use dictionary/sets/hashes
-    
+
 * TO DO:
     * tutorial on how to submit changes in git
     * python2/datetimeModule.py  - how to use the datetime module
@@ -85,6 +89,6 @@ windows emulating linux w/ cygwin -
     * I tried to get cygwin working with easy_tools installing MySQL-python.  This failed for a number
       of reasons.  I tried installing some MySQL libraries as well gcc-core but still failed.
       I would love a patch for cygwin to work with the MySQLdb module otherwise just use linux.
-    
-* python 3.x 
+
+* python 3.x
     * python3-101.py                - first example of how to program in python 3.x

@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 #
-# Copyright (c) Digital Imaging Software Solutions, INC 
+# Copyright (c) Digital Imaging Software Solutions, INC
 # Dan Sheffner Dan@Sheffner.org
 # All rights reserved.
 #
@@ -19,7 +19,7 @@
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
 # OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABIL-
 # ITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
-# SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+# SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 # WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
@@ -33,12 +33,12 @@
 import sys
 import os
 
-os.system("clear") # clears the screen 
+os.system("clear") # clears the screen
 print 'This program will attempt to teach you python 2.x.  Created by Dan Sheffner.' #tells you who I am, and also allow in line comments.
 print 'email me at dan @ sheffner dot com' #my email
 
 raw_input("press enter to continue") #waits for you to hit enter
-os.system("clear")  
+os.system("clear")
 
 print "You shold print this file on a color printer with line numbers."
 print "A good windows text editor is notepad++ http://notepad-plus-plus.org/"
@@ -90,7 +90,7 @@ else:      # else part
     print "This line will never run because 10 will never be greater then 5."
 raw_input("press enter to continue.")
 os.system("clear")
-    
+
 print "This line is not tabbed over and will always run."
 raw_input("press enter to continue.")
 os.system("clear")
@@ -113,7 +113,7 @@ if doYouUnderstandPython == True: #is the variable True?
     print "Good to hear."
 else:
     print "hmm...maybe you should review the code again."
-    
+
 raw_input("press enter to continue")
 os.system("clear")
 
@@ -125,9 +125,9 @@ os.system("clear")
 def screenClear():
     raw_input("press enter to continue.")
     os.system("clear")
-    
-    
-#now instead of calling two lines we can just call one to run lines 118 & 119
+
+
+#now instead of calling two lines we can just call one to run lines 126 & 127
 print "now to call our new function"
 screenClear()
 
@@ -142,13 +142,13 @@ screenClear()
 #FUNCTIONS with parameters passed (params)
 def sayHello(name):
     print "Hello " + name + " How are you doing?"
-    
+
 sayHello("Laura")
 sayHello("Dan")
 sayHello("Chris")
 screenClear()
 
-#IF, ELIF, ELSE statements.  
+#IF, ELIF, ELSE statements.
 #Many programming laungages call this a case statement
 def privateMessage(name):
     if name == "Laura":
@@ -157,7 +157,7 @@ def privateMessage(name):
         print name + " do you want to play some basketball?"
     else:
         print name + " do I know you?"
-        
+
 privateMessage("Laura")
 privateMessage("Chris")
 privateMessage("Dan")
