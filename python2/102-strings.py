@@ -19,7 +19,7 @@
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
 # OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABIL-
 # ITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
-# SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+# SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 # WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
@@ -31,8 +31,8 @@ import os
 def screenClear():
     raw_input("press enter to continue.")
     os.system("clear")
-    
-os.system("clear") # clears the screen 
+
+os.system("clear") # clears the screen
 print '102-strings.py created by Dan Sheffner.' #tells you who I am, and also allow in line comments.
 print 'email me at dan @ sheffner dot com' #my email
 
@@ -43,7 +43,7 @@ print 'email me at dan @ sheffner dot com' #my email
 firstName = "Dan"
 lastName = "Sheffner"
 
-print "My Name is " + firstName + " " + lastName 
+print "My Name is " + firstName + " " + lastName
 screenClear()
 
 #check the length of any string
@@ -57,12 +57,12 @@ print "Without the spaces removed: " + spacedString
 screenClear()
 
 #uppercase letters
-print "uppercase letters with .uppercase()."
+print "uppercase letters with .upper()."
 print firstName.upper()
 screenClear()
 
 #lowercase letters
-print "lowercase letters with .lowercase()"
+print "lowercase letters with .lower()"
 print firstName.lower()
 screenClear()
 
@@ -73,12 +73,12 @@ print "Use stringName[start:end] to print substrings: " +  lastName[0:5]
 print "Use stringName[-Number] to print substrings: " +  lastName[-3]
 screenClear()
 
-#find a string in a string with string.find() 
+#find a string in a string with string.find()
 #find will return -1 if it doesn't find it.
 #otherwise it will return the position it found it at.
-if lastName.find('Sheff') >= 0: # 
+if lastName.find('Sheff') >= 0: #
     print "Sheff is a substring of " + lastName + " and found at position: " + str(lastName.find('Sheff'))
-    
+
 
 if lastName.find("ner") >= 0:
     print "ner is a substring of " + lastName + " and found at position: " + str(lastName.find("ner"))
@@ -112,7 +112,7 @@ over the lazy dog.
 """
 
 print myBook
-screenClear() 
+screenClear()
 
 #raw_input wil always return a string
 print "How old are you?"
